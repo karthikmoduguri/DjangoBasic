@@ -1,0 +1,52 @@
+# ==========================================
+# ✅ Python Virtual Environment
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# ==========================================
+# ✅ Django Specific
+# ==========================================
+*.sqlite3                # default Django DB
+db.sqlite3
+
+# Don't track migration files if you want clean initial repos
+*/migrations/
+!*/migrations/__init__.py
+
+# Static & Media Files (optional - useful in production setups)
+staticfiles/
+static/
+media/
+
+# Local settings (if you keep secret keys locally)
+local_settings.py
+
+# Secret or sensitive Django keys file
+.env
+*.env
+
+# ==========================================
+# ✅ IDEs & Editors
+# ==========================================
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# JetBrains IDEs
+*.iml
+
+# ==========================================
+# ✅ System Files
+# ==========================================
+.DS_Store
+Thumbs.db
